@@ -1,0 +1,27 @@
+{
+  "name": "javascript-es6-curso-rocketseat",
+  "version": "1.0.0",
+  "description": "es6 - Novas formas de escrever o Javascript, podendo utilizar classes <br/> Babel - Transpilar para todos os navegadores entenderem <br/> Webpack - Servidor para live reload (Desenvolvimento) <br/> Arrow functions <br/> Desestruturação <br/> Rest/spread <br/> Import/export <br/> Async/await - Programação assincrona <br/><hr/>",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --exec babel ./main.js -o ./bundle.js -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gustavocarvalhoti/javascript-es6-curso-rocketseat.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gustavocarvalhoti/javascript-es6-curso-rocketseat/issues"
+  },
+  "homepage": "https://github.com/gustavocarvalhoti/javascript-es6-curso-rocketseat#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.6.2",
+    "@babel/core": "^7.6.2",
+    "@babel/plugin-syntax-object-rest-spread": "^7.2.0",
+    "@babel/preset-env": "^7.6.2",
+    "babel-watch": "^7.0.0",
+    "nodemon": "^1.19.3"
+  }
+}
